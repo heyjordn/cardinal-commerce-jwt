@@ -1,0 +1,19 @@
+{
+  "name": "cardinal-commerce-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Jordan Jones <proxima.aust@gmail.com> (http://jordnjones.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
