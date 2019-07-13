@@ -1,6 +1,6 @@
 {
   "name": "cardinal-commerce-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a valid jwt for Cardinal Commerce payment gateway",
   "main": "index.js",
   "scripts": {
