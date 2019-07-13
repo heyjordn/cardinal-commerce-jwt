@@ -4,6 +4,21 @@
 
 [Cardinal Commerce](https://cruisecontrolsbox.cardinalcommerce.com/getting-started.html#user-content-generating-a-server-jwt-in-java) requires a valid signed jwt from the server to initialise it's Songbird library but however doesn't provide a guide for generating a valid one in node.js. This libray aims to ease that process.
 
+### Usage
+
+```javascript
+const cardinalCommerceJwt = require('cardinal-commmerce-jwt')
+
+async function(){
+  let jwt = await cardinalCommerceJwt({
+    apiKey: 'viabcuwyvey',
+    apiIdentifier: 'yvtchJKShdbC',
+    orgUnitId: 'bc7cbsdycvvf',
+  })
+}
+
+```
+
 ### Install
 
 ```bash
