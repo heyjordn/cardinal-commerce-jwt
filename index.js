@@ -17,7 +17,6 @@ module.exports = function({
       reject(
         new Error('apiKey is needed to create a valid cardinal commerce jwt!')
       )
-    console.log(apiIdentifier)
     if (!apiIdentifier)
       reject(
         new Error(
